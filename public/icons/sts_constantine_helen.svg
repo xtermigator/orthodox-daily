@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="goldLeafBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Imperial Halos -->
+    <radialGradient id="imperialHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="woodBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241206" />
+      <stop offset="50%" stop-color="#170A03" />
+      <stop offset="100%" stop-color="#0E0501" />
+    </linearGradient>
+
+    <!-- Imperial Tyrian Purple Robe -->
+    <linearGradient id="imperialPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7E22CE" />
+      <stop offset="40%" stop-color="#581C87" />
+      <stop offset="80%" stop-color="#3B0764" />
+      <stop offset="100%" stop-color="#240242" />
+    </linearGradient>
+
+    <!-- Empress Vermilion Scarlet Maphorion -->
+    <linearGradient id="empressRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="40%" stop-color="#DC2626" />
+      <stop offset="80%" stop-color="#991B1B" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </linearGradient>
+
+    <!-- Life-Giving Golden Cross -->
+    <linearGradient id="crossGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="30%" stop-color="#FACC15" />
+      <stop offset="70%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <!-- Jewels -->
+    <radialGradient id="rubyGlow" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="60%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#881337" />
+    </radialGradient>
+    <radialGradient id="emeraldGlow" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#6EE7B7" />
+      <stop offset="60%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#woodBase)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Burnished Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#goldLeafBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Byzantine Greek Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <!-- Constantine title -->
+    <rect x="25" y="24" width="130" height="20" rx="10" fill="#3B0764" opacity="0.85" />
+    <text x="90" y="38" fill="#FEF08A" font-size="9.5" letter-spacing="1">Ο ΑΓ. ΚΩΝCΤΑΝΤΙΝΟC</text>
+
+    <!-- Helen title -->
+    <rect x="205" y="24" width="130" height="20" rx="10" fill="#7F1D1D" opacity="0.85" />
+    <text x="270" y="38" fill="#FEF08A" font-size="9.5" letter-spacing="1">Η ΑΓΙΑ ΕΛΕΝΗ</text>
+
+    <!-- Vision of the Cross Motto -->
+    <text x="180" y="58" fill="#78350F" font-size="10" letter-spacing="2">ΕΝ ΤΟΥΤΩ ΝΙΚΑ</text>
+  </g>
+
+  <!-- ================= SAINT CONSTANTINE (LEFT) ================= -->
+  <!-- Halo -->
+  <circle cx="100" cy="150" r="50" fill="url(#imperialHalo)" stroke="#FFFBEB" stroke-width="2" />
+  <circle cx="100" cy="150" r="47" fill="none" stroke="#92400E" stroke-width="1" stroke-dasharray="2 2" />
+
+  <!-- Body / Robes: Imperial Purple Chlamys with Gold Loros & Tablion -->
+  <path d="M50 205 L50 435 L145 435 L145 205 Z" fill="url(#imperialPurple)" stroke="#FDE047" stroke-width="1.2" />
+  <!-- Golden Tablion (Imperial insignia on chlamys) -->
+  <polygon points="65,225 105,225 95,290 65,280" fill="url(#crossGold)" stroke="#78350F" stroke-width="0.8" />
+  <circle cx="82" cy="255" r="4" fill="url(#rubyGlow)" />
+
+  <!-- Imperial Loros (Jeweled golden scarf draped around shoulders) -->
+  <path d="M78 200 L88 380 L108 380 L98 200 Z" fill="url(#crossGold)" stroke="#78350F" stroke-width="0.8" />
+  <!-- Pearls and Rubies on Loros -->
+  <circle cx="93" cy="240" r="2.5" fill="#FFFFFF" />
+  <circle cx="93" cy="270" r="3" fill="url(#emeraldGlow)" />
+  <circle cx="93" cy="300" r="2.5" fill="#FFFFFF" />
+  <circle cx="93" cy="330" r="3" fill="url(#rubyGlow)" />
+
+  <!-- Constantine Face -->
+  <path d="M92 165 L92 185 L108 185 L108 165 Z" fill="#E2A676" />
+  <ellipse cx="100" cy="152" rx="19" ry="23" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <!-- Beard & Hair -->
+  <path d="M84 148 C80 175 120 175 116 148 C112 165 88 165 84 148 Z" fill="#4B382A" stroke="#2D1C0C" stroke-width="0.5" />
+  <!-- Eyes -->
+  <ellipse cx="94" cy="148" rx="3" ry="2" fill="#2E1C0C" />
+  <ellipse cx="106" cy="148" rx="3" ry="2" fill="#2E1C0C" />
+  <path d="M98 145 L100 156 L103 156" stroke="#9A3412" stroke-width="0.9" fill="none" />
+  <path d="M97 160 Q100 162 103 160" stroke="#78350F" stroke-width="1.2" fill="none" />
+
+  <!-- Imperial Byzantine Crown (Stemma) with Cross & Pendilia Pearls -->
+  <path d="M80 135 L80 120 Q100 115 120 120 L120 135 Z" fill="url(#crossGold)" stroke="#78350F" stroke-width="1" />
+  <circle cx="100" cy="115" r="4" fill="url(#rubyGlow)" />
+  <path d="M100 111 L100 102 M96 106 L104 106" stroke="#FEF08A" stroke-width="1.8" />
+  <!-- Pendilia (hanging pearl strands from crown) -->
+  <path d="M81 135 L80 150" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+  <path d="M119 135 L120 150" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+
+  <!-- Constantine's Hand upholding the Holy Cross -->
+  <ellipse cx="138" cy="285" rx="7" ry="9" fill="#E2A676" />
+  <!-- Fingers curling around Cross -->
+  <path d="M136 280 Q145 285 138 292" stroke="#A76137" stroke-width="1.5" fill="none" />
+
+  <!-- ================= SAINT HELEN (RIGHT) ================= -->
+  <!-- Halo -->
+  <circle cx="260" cy="150" r="50" fill="url(#imperialHalo)" stroke="#FFFBEB" stroke-width="2" />
+  <circle cx="260" cy="150" r="47" fill="none" stroke="#92400E" stroke-width="1" stroke-dasharray="2 2" />
+
+  <!-- Body / Robes: Empress Scarlet Maphorion with Gold Trim -->
+  <path d="M215 205 L215 435 L310 435 L310 205 Z" fill="url(#empressRed)" stroke="#FDE047" stroke-width="1.2" />
+  
+  <!-- Empress Jeweled Collar & Mantle -->
+  <path d="M235 200 Q260 215 285 200 L285 240 Q260 255 235 240 Z" fill="url(#crossGold)" stroke="#78350F" stroke-width="0.8" />
+  <circle cx="260" cy="225" r="3.5" fill="url(#rubyGlow)" />
+  <circle cx="246" cy="220" r="2.5" fill="url(#emeraldGlow)" />
+  <circle cx="274" cy="220" r="2.5" fill="url(#emeraldGlow)" />
+
+  <!-- Helen Face -->
+  <path d="M252 165 L252 185 L268 185 L268 165 Z" fill="#E2A676" />
+  <ellipse cx="260" cy="152" rx="18" ry="22" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <!-- Serene Matronly Eyes -->
+  <ellipse cx="254" cy="148" rx="2.8" ry="2" fill="#2E1C0C" />
+  <ellipse cx="266" cy="148" rx="2.8" ry="2" fill="#2E1C0C" />
+  <path d="M259 146 L260 156 L263 156" stroke="#9A3412" stroke-width="0.9" fill="none" />
+  <path d="M257 161 Q260 163 263 161" stroke="#991B1B" stroke-width="1.2" fill="none" stroke-linecap="round" />
+
+  <!-- Empress Crown with Pearls -->
+  <path d="M242 135 L242 120 Q260 115 278 120 L278 135 Z" fill="url(#crossGold)" stroke="#78350F" stroke-width="1" />
+  <circle cx="260" cy="115" r="4" fill="url(#emeraldGlow)" />
+  <path d="M260 111 L260 102 M256 106 L264 106" stroke="#FEF08A" stroke-width="1.8" />
+  <path d="M243 135 L242 152" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+  <path d="M277 135 L278 152" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+
+  <!-- Helen's Hand upholding Cross -->
+  <ellipse cx="222" cy="285" rx="7" ry="9" fill="#E2A676" />
+  <path d="M224 280 Q215 285 222 292" stroke="#A76137" stroke-width="1.5" fill="none" />
+
+  <!-- ================= THE PRECIOUS LIFE-GIVING CROSS (CENTER) ================= -->
+  <!-- Radiant Aura behind Cross -->
+  <circle cx="180" cy="230" r="42" fill="#FEF08A" opacity="0.3" filter="blur(4px)" />
+
+  <!-- Main Vertical Wood Beam -->
+  <rect x="173" y="85" width="14" height="340" fill="url(#crossGold)" stroke="#78350F" stroke-width="1.5" rx="2" />
+  <!-- Main Horizontal Beam -->
+  <rect x="110" y="145" width="140" height="14" fill="url(#crossGold)" stroke="#78350F" stroke-width="1.5" rx="2" />
+
+  <!-- Upper Inscription Plaque (INBI / IC XC) -->
+  <rect x="156" y="98" width="48" height="16" rx="3" fill="#B91C1C" stroke="#FEF08A" stroke-width="1" />
+  <text x="180" y="110" fill="#FFFFFF" font-family="'Cinzel', serif" font-size="8" font-weight="bold" text-anchor="middle">IC XC</text>
+
+  <!-- Byzantine Cross Bar End Ornaments (Trefoil ends) -->
+  <!-- Left arm -->
+  <circle cx="110" cy="152" r="7" fill="url(#crossGold)" stroke="#78350F" stroke-width="1" />
+  <circle cx="110" cy="152" r="3" fill="url(#rubyGlow)" />
+  <!-- Right arm -->
+  <circle cx="250" cy="152" r="7" fill="url(#crossGold)" stroke="#78350F" stroke-width="1" />
+  <circle cx="250" cy="152" r="3" fill="url(#rubyGlow)" />
+  <!-- Top arm -->
+  <circle cx="180" cy="85" r="7" fill="url(#crossGold)" stroke="#78350F" stroke-width="1" />
+  <circle cx="180" cy="85" r="3" fill="url(#emeraldGlow)" />
+
+  <!-- Center Cross Boss with Star of Light -->
+  <circle cx="180" cy="152" r="11" fill="url(#rubyGlow)" stroke="#FEF08A" stroke-width="1.5" />
+  <circle cx="180" cy="152" r="4" fill="#FFFFFF" />
+
+  <!-- Basil Flowers at Base of Cross (Historical finding of the Cross) -->
+  <g fill="#15803D" stroke="#052E16" stroke-width="0.5">
+    <path d="M165 425 Q170 410 180 412 Q190 410 195 425 Z" />
+    <path d="M155 432 Q162 418 175 422 Z" />
+    <path d="M205 432 Q198 418 185 422 Z" />
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="35" y="442" width="290" height="20" rx="10" fill="#3B0764" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="456" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    STS. CONSTANTINE &amp; HELEN • EQUALS-TO-THE-APOSTLES
+  </text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Orthodox Daily Companion",
+  "description": "A calm, reverent, and kid-friendly Orthodox daily calendar companion for children and families with daily prayers, scripture readings, saint stories, and an isolated Holy Week special mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

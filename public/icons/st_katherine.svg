@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="katherineGoldBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Princess Halo -->
+    <radialGradient id="katherineHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="45%" stop-color="#FDE047" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="katherineWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#261208" />
+      <stop offset="100%" stop-color="#120602" />
+    </linearGradient>
+
+    <!-- Imperial Vermilion Cinnabar Maphorion -->
+    <linearGradient id="katherineRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="30%" stop-color="#E11D48" />
+      <stop offset="70%" stop-color="#BE123C" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+
+    <!-- Emerald Chiton -->
+    <linearGradient id="katherineEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="40%" stop-color="#059669" />
+      <stop offset="80%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Gold Stemma Crown -->
+    <linearGradient id="goldCrown" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#FACC15" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <!-- Rubies -->
+    <radialGradient id="rubyJewel" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="60%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#881337" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#katherineWood)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Burnished Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#katherineGoldBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <rect x="70" y="24" width="220" height="22" rx="11" fill="#881337" opacity="0.88" />
+    <text x="180" y="39" fill="#FEF08A" font-size="10.5" letter-spacing="2">Η ΑΓΙΑ ΑΙΚΑΤΕΡΙΝΑ</text>
+    <text x="180" y="58" fill="#78350F" font-size="8.5" letter-spacing="1">Η ΜΕΓΑΛΟΜΑΡΤΥC &amp; ΠΑΝCΟΦΟC</text>
+  </g>
+
+  <!-- Broken Spiked Wheel of Martyrdom (Background Attribute) -->
+  <g opacity="0.25" stroke="#78350F" stroke-width="2" fill="none">
+    <circle cx="280" cy="240" r="50" />
+    <circle cx="280" cy="240" r="40" />
+    <line x1="280" y1="190" x2="280" y2="290" />
+    <line x1="230" y1="240" x2="330" y2="240" />
+    <polygon points="280,185 277,175 283,175" fill="#78350F" />
+    <polygon points="335,240 345,237 345,243" fill="#78350F" />
+  </g>
+
+  <!-- RADIANT HALO -->
+  <circle cx="180" cy="142" r="60" fill="url(#katherineHalo)" stroke="#FFFBEB" stroke-width="2.2" />
+  <circle cx="180" cy="142" r="56" fill="none" stroke="#B45309" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Saint Katherine Robes -->
+  <!-- Inner Chiton (Emerald Green with Gold Collar) -->
+  <path d="M140 190 L140 435 L220 435 L220 190 Z" fill="url(#katherineEmerald)" />
+  <path d="M150 190 Q180 205 210 190" stroke="#FDE047" stroke-width="2" fill="none" />
+
+  <!-- Royal Vermilion Maphorion / Mantle -->
+  <path d="M180 92 C145 92 125 125 115 170 C105 215 95 290 85 435 L275 435 C265 290 255 215 245 170 C235 125 215 92 180 92 Z" fill="url(#katherineRed)" stroke="#FDE047" stroke-width="1.5" />
+
+  <!-- Gold Star on Shoulder and Chest -->
+  <g fill="#FDE047">
+    <path d="M130 210 L132 215 L137 217 L132 219 L130 224 L128 219 L123 217 L128 215 Z" />
+    <path d="M230 210 L232 215 L237 217 L232 219 L230 224 L228 219 L223 217 L228 215 Z" />
+  </g>
+
+  <!-- Face & Byzantine Features -->
+  <!-- Neck -->
+  <path d="M172 165 L172 188 L188 188 L188 165 Z" fill="#E2A676" />
+  <!-- Face Oval -->
+  <ellipse cx="180" cy="144" rx="20" ry="24" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <ellipse cx="180" cy="146" rx="17" ry="20" fill="#FADBC2" />
+
+  <!-- Gentle Wise Eyes -->
+  <ellipse cx="173" cy="142" rx="3.2" ry="2.2" fill="#2E1C0C" />
+  <circle cx="174" cy="141.5" r="0.8" fill="#FFFFFF" />
+  <ellipse cx="187" cy="142" rx="3.2" ry="2.2" fill="#2E1C0C" />
+  <circle cx="188" cy="141.5" r="0.8" fill="#FFFFFF" />
+  <!-- Elegant Eyebrows -->
+  <path d="M168 138 Q173 135 178 138" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <path d="M182 138 Q187 135 192 138" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <!-- Nose & Royal Red Lips -->
+  <path d="M179 139 L180 151 L183 151" stroke="#9A3412" stroke-width="1" fill="none" />
+  <path d="M176 157 Q180 159 184 157" stroke="#BE123C" stroke-width="1.6" fill="none" stroke-linecap="round" />
+
+  <!-- Imperial Princess Jeweled Crown (Stemma) -->
+  <path d="M160 125 L160 108 Q180 100 200 108 L200 125 Z" fill="url(#goldCrown)" stroke="#78350F" stroke-width="1" />
+  <circle cx="180" cy="104" r="3.5" fill="url(#rubyJewel)" />
+  <circle cx="168" cy="116" r="2.5" fill="#10B981" />
+  <circle cx="192" cy="116" r="2.5" fill="#10B981" />
+  <path d="M180 100 L180 92 M176 96 L184 96" stroke="#FEF08A" stroke-width="1.8" />
+  <!-- Pendilia (Pearl Strands) -->
+  <path d="M161 125 L160 145" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+  <path d="M199 125 L200 145" stroke="#FFFFFF" stroke-width="1.8" stroke-dasharray="2 2" />
+
+  <!-- RIGHT HAND HOLDING WHITE MARTYR'S CROSS -->
+  <g id="katherine-cross">
+    <ellipse cx="140" cy="275" rx="7" ry="9" fill="#E2A676" />
+    <path d="M140 235 L140 330 M130 255 L150 255" stroke="#FFFDF7" stroke-width="3" stroke-linecap="round" />
+    <circle cx="140" cy="255" r="2.5" fill="#FDE047" />
+  </g>
+
+  <!-- LEFT HAND HOLDING SCROLL OF WISDOM & PALM -->
+  <g id="katherine-scroll">
+    <!-- Golden Scroll -->
+    <path d="M210 270 L245 285 L240 335 L205 320 Z" fill="#FEF3C7" stroke="#B45309" stroke-width="1" />
+    <!-- Greek text lines on scroll -->
+    <line x1="214" y1="288" x2="238" y2="298" stroke="#78350F" stroke-width="1" stroke-dasharray="2 1" />
+    <line x1="212" y1="300" x2="236" y2="310" stroke="#78350F" stroke-width="1" stroke-dasharray="2 1" />
+    <line x1="210" y1="312" x2="234" y2="322" stroke="#78350F" stroke-width="1" stroke-dasharray="2 1" />
+    <!-- Hand holding scroll -->
+    <ellipse cx="225" cy="305" rx="7" ry="8" fill="#E2A676" />
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="35" y="442" width="290" height="20" rx="10" fill="#881337" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="456" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    ST. KATHERINE THE GREAT MARTYR OF ALEXANDRIA
+  </text>
+</svg>

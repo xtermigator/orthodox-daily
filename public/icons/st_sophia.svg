@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="goldLeafGlow" cx="50%" cy="32%" r="48%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="70%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </radialGradient>
+
+    <!-- Halo Radiance -->
+    <radialGradient id="haloSophia" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="45%" stop-color="#FCD34D" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#92400E" />
+    </radialGradient>
+
+    <!-- Child Halos -->
+    <radialGradient id="haloChild" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="90%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Rich Wood Panel Background -->
+    <linearGradient id="woodPanel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#261408" />
+      <stop offset="50%" stop-color="#1A0D05" />
+      <stop offset="100%" stop-color="#100702" />
+    </linearGradient>
+
+    <!-- Byzantine Red Maphorion Veil -->
+    <linearGradient id="redMaphorion" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="30%" stop-color="#DC2626" />
+      <stop offset="70%" stop-color="#991B1B" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </linearGradient>
+
+    <!-- Lapis Lazuli Chiton -->
+    <linearGradient id="lapisBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="40%" stop-color="#1D4ED8" />
+      <stop offset="80%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+
+    <!-- Emerald Green Robe for Hope -->
+    <linearGradient id="emeraldGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Amethyst Robe for Love -->
+    <linearGradient id="amethystPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#7E22CE" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+
+    <!-- Gold Trim Pattern -->
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#woodPanel)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Burnished Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#goldLeafGlow)" rx="6" />
+
+  <!-- Byzantine Decorative Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="24" y="456" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="456" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Calligraphic Inscriptions -->
+  <g font-family="'Cinzel', 'Trajan Pro', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <!-- Top Saint Sophia Title -->
+    <rect x="90" y="24" width="180" height="22" rx="11" fill="#78350F" opacity="0.85" />
+    <text x="180" y="39" fill="#FEF08A" font-size="11" letter-spacing="2">Η ΑΓΙΑ CΟΦΙΑ</text>
+
+    <!-- Daughters Inscription -->
+    <text x="180" y="58" fill="#78350F" font-size="9" letter-spacing="1.5">ΠΙCΤΙC • ΕΛΠΙC • ΑΓΑΠΗ</text>
+  </g>
+
+  <!-- Divine Ray Rays of Holy Spirit -->
+  <g stroke="#FFFBEB" stroke-width="1" opacity="0.4" stroke-dasharray="3 2">
+    <line x1="180" y1="20" x2="180" y2="90" />
+    <line x1="180" y1="20" x2="130" y2="100" />
+    <line x1="180" y1="20" x2="230" y2="100" />
+    <line x1="180" y1="20" x2="80" y2="120" />
+    <line x1="180" y1="20" x2="280" y2="120" />
+  </g>
+
+  <!-- SAINT SOPHIA (MOTHER) HALO -->
+  <circle cx="180" cy="135" r="54" fill="url(#haloSophia)" stroke="#FFFBEB" stroke-width="2" />
+  <circle cx="180" cy="135" r="51" fill="none" stroke="#B45309" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Saint Sophia Maphorion & Body -->
+  <!-- Inner Chiton (Dark Teal/Lapis) -->
+  <path d="M145 160 L145 420 L215 420 L215 160 Z" fill="url(#lapisBlue)" />
+  
+  <!-- Outer Rich Vermilion Red Maphorion (Veil covering head and mantle) -->
+  <path d="M180 85 C145 85 130 115 125 155 C120 195 105 260 95 380 L265 380 C255 260 240 195 235 155 C230 115 215 85 180 85 Z" fill="url(#redMaphorion)" stroke="#FDE047" stroke-width="1.5" />
+  
+  <!-- Maphorion Gold Stars of Perpetual Virginity/Holiness -->
+  <g fill="#FDE047">
+    <!-- Forehead Star -->
+    <path d="M180 102 L182 108 L188 110 L182 112 L180 118 L178 112 L172 110 L178 108 Z" />
+    <!-- Shoulder Stars -->
+    <path d="M136 170 L137 174 L141 175 L137 176 L136 180 L135 176 L131 175 L135 174 Z" />
+    <path d="M224 170 L225 174 L229 175 L225 176 L224 180 L223 176 L219 175 L223 174 Z" />
+  </g>
+
+  <!-- Saint Sophia Face & Serene Features -->
+  <!-- Neck -->
+  <path d="M172 152 L172 170 L188 170 L188 152 Z" fill="#E2A676" />
+  <!-- Face Oval -->
+  <ellipse cx="180" cy="135" rx="20" ry="25" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <!-- Shading / Tone -->
+  <ellipse cx="180" cy="138" rx="17" ry="21" fill="#FADBC2" />
+  <!-- Byzantine Contemplative Almond Eyes -->
+  <ellipse cx="173" cy="133" rx="3.5" ry="2.2" fill="#2E1C0C" />
+  <circle cx="174" cy="132.5" r="0.8" fill="#FFFFFF" />
+  <ellipse cx="187" cy="133" rx="3.5" ry="2.2" fill="#2E1C0C" />
+  <circle cx="188" cy="132.5" r="0.8" fill="#FFFFFF" />
+  <!-- Elegant Byzantine Eyebrows -->
+  <path d="M168 129 Q173 126 178 129" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <path d="M182 129 Q187 126 192 129" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <!-- Slender Nose & Merciful Mouth -->
+  <path d="M179 130 L180 142 L183 142" stroke="#9A3412" stroke-width="1" fill="none" />
+  <path d="M176 148 Q180 150 184 148" stroke="#991B1B" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+  <!-- Sophia's Loving Arms Embracing Her Daughters -->
+  <!-- Left arm holding Faith -->
+  <path d="M130 190 Q110 240 100 280 Q115 290 135 270 Q145 230 150 200 Z" fill="url(#redMaphorion)" stroke="#FDE047" stroke-width="0.8" />
+  <!-- Right arm holding Love -->
+  <path d="M230 190 Q250 240 260 280 Q245 290 225 270 Q215 230 210 200 Z" fill="url(#redMaphorion)" stroke="#FDE047" stroke-width="0.8" />
+
+  <!-- ================= THE THREE DAUGHTERS ================= -->
+
+  <!-- 1. LEFT DAUGHTER: PISTIS (FAITH) -->
+  <g id="daughter-pistis">
+    <!-- Halo -->
+    <circle cx="105" cy="275" r="30" fill="url(#haloChild)" stroke="#FFFBEB" stroke-width="1.5" />
+    <circle cx="105" cy="275" r="28" fill="none" stroke="#92400E" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+    
+    <!-- Robe (Lapis Blue) -->
+    <path d="M85 305 Q105 298 125 305 L135 440 L75 440 Z" fill="url(#lapisBlue)" stroke="#FDE047" stroke-width="1" />
+    
+    <!-- Veil (White Alabaster) -->
+    <path d="M105 250 C90 250 82 265 80 285 C80 305 78 335 75 365 L135 365 C132 335 130 305 130 285 C128 265 120 250 105 250 Z" fill="#FFFDF5" stroke="#D97706" stroke-width="0.8" />
+    
+    <!-- Face -->
+    <ellipse cx="105" cy="275" rx="13" ry="16" fill="#FCE7D4" stroke="#A76137" stroke-width="0.8" />
+    <!-- Eyes -->
+    <ellipse cx="100" cy="274" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <ellipse cx="110" cy="274" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <!-- Nose & Smile -->
+    <path d="M105 272 L105 280 L107 280" stroke="#9A3412" stroke-width="0.8" fill="none" />
+    <path d="M102 284 Q105 286 108 284" stroke="#B91C1C" stroke-width="1" fill="none" stroke-linecap="round" />
+
+    <!-- Holding Golden Martyr's Cross -->
+    <path d="M112 290 L112 340 M104 302 L120 302" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="112" cy="302" r="2.5" fill="#EF4444" />
+    
+    <!-- Name Tag -->
+    <rect x="75" y="445" width="60" height="16" rx="8" fill="#1E3A8A" stroke="#FDE047" stroke-width="0.8" />
+    <text x="105" y="456" fill="#FFFFFF" font-size="8" font-weight="bold" text-anchor="middle" font-family="'Cinzel', serif">ΠΙCΤΙC</text>
+  </g>
+
+  <!-- 2. CENTER DAUGHTER: ELPIS (HOPE) -->
+  <g id="daughter-elpis">
+    <!-- Halo -->
+    <circle cx="180" cy="255" r="32" fill="url(#haloChild)" stroke="#FFFBEB" stroke-width="1.5" />
+    <circle cx="180" cy="255" r="30" fill="none" stroke="#92400E" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+    
+    <!-- Robe (Emerald Green) -->
+    <path d="M158 285 Q180 278 202 285 L215 440 L145 440 Z" fill="url(#emeraldGreen)" stroke="#FDE047" stroke-width="1" />
+    
+    <!-- Maphorion / Veil (Golden Saffron) -->
+    <path d="M180 230 C165 230 157 245 155 265 C155 285 153 315 150 345 L210 345 C207 315 205 285 205 265 C203 245 195 230 180 230 Z" fill="#F59E0B" stroke="#78350F" stroke-width="0.8" />
+    
+    <!-- Face -->
+    <ellipse cx="180" cy="255" rx="14" ry="17" fill="#FCE7D4" stroke="#A76137" stroke-width="0.8" />
+    <!-- Eyes -->
+    <ellipse cx="175" cy="254" rx="2.4" ry="1.6" fill="#2E1C0C" />
+    <ellipse cx="185" cy="254" rx="2.4" ry="1.6" fill="#2E1C0C" />
+    <!-- Nose & Smile -->
+    <path d="M180 252 L180 260 L182 260" stroke="#9A3412" stroke-width="0.8" fill="none" />
+    <path d="M177 264 Q180 266 183 264" stroke="#B91C1C" stroke-width="1" fill="none" stroke-linecap="round" />
+
+    <!-- Holding Golden Martyr's Cross -->
+    <path d="M180 275 L180 330 M172 287 L188 287" stroke="#FFFBEB" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="180" cy="287" r="2.5" fill="#10B981" />
+    
+    <!-- Name Tag -->
+    <rect x="150" y="445" width="60" height="16" rx="8" fill="#065F46" stroke="#FDE047" stroke-width="0.8" />
+    <text x="180" y="456" fill="#FFFFFF" font-size="8" font-weight="bold" text-anchor="middle" font-family="'Cinzel', serif">ΕΛΠΙC</text>
+  </g>
+
+  <!-- 3. RIGHT DAUGHTER: AGAPE (LOVE) -->
+  <g id="daughter-agape">
+    <!-- Halo -->
+    <circle cx="255" cy="275" r="30" fill="url(#haloChild)" stroke="#FFFBEB" stroke-width="1.5" />
+    <circle cx="255" cy="275" r="28" fill="none" stroke="#92400E" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+    
+    <!-- Robe (Amethyst Purple) -->
+    <path d="M235 305 Q255 298 275 305 L285 440 L225 440 Z" fill="url(#amethystPurple)" stroke="#FDE047" stroke-width="1" />
+    
+    <!-- Veil (Rose Cinnabar) -->
+    <path d="M255 250 C240 250 232 265 230 285 C230 305 228 335 225 365 L285 365 C282 335 280 305 280 285 C278 265 270 250 255 250 Z" fill="#E11D48" stroke="#FDE047" stroke-width="0.8" />
+    
+    <!-- Face -->
+    <ellipse cx="255" cy="275" rx="13" ry="16" fill="#FCE7D4" stroke="#A76137" stroke-width="0.8" />
+    <!-- Eyes -->
+    <ellipse cx="250" cy="274" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <ellipse cx="260" cy="274" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <!-- Nose & Smile -->
+    <path d="M255 272 L255 280 L257 280" stroke="#9A3412" stroke-width="0.8" fill="none" />
+    <path d="M252 284 Q255 286 258 284" stroke="#B91C1C" stroke-width="1" fill="none" stroke-linecap="round" />
+
+    <!-- Holding Golden Martyr's Cross -->
+    <path d="M248 290 L248 340 M240 302 L256 302" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="248" cy="302" r="2.5" fill="#F43F5E" />
+    
+    <!-- Name Tag -->
+    <rect x="225" y="445" width="60" height="16" rx="8" fill="#881337" stroke="#FDE047" stroke-width="0.8" />
+    <text x="255" y="456" fill="#FFFFFF" font-size="8" font-weight="bold" text-anchor="middle" font-family="'Cinzel', serif">ΑΓΑΠΗ</text>
+  </g>
+
+  <!-- Bottom Decorative Plaque -->
+  <rect x="40" y="426" width="280" height="15" rx="7.5" fill="#451A03" opacity="0.9" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="437" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    ST. SOPHIA &amp; HER THREE DAUGHTERS
+  </text>
+</svg>

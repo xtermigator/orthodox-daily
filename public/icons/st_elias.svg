@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- Fiery Gold Background -->
+    <radialGradient id="eliasFieryBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="30%" stop-color="#FDE047" />
+      <stop offset="60%" stop-color="#F59E0B" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Prophet Halo with Fiery Glow -->
+    <radialGradient id="eliasHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="40%" stop-color="#FDE047" />
+      <stop offset="75%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#9A3412" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="eliasWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#261208" />
+      <stop offset="100%" stop-color="#120602" />
+    </linearGradient>
+
+    <!-- Carmel Rock Shading -->
+    <linearGradient id="carmelRock" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A16207" />
+      <stop offset="50%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#451A03" />
+    </linearGradient>
+
+    <!-- Prophet Mantle (Milote / Sheepskin & Olive Himation) -->
+    <linearGradient id="prophetHimation" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4D7C0F" />
+      <stop offset="40%" stop-color="#3F6212" />
+      <stop offset="80%" stop-color="#1A2E05" />
+      <stop offset="100%" stop-color="#0F1702" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#eliasWood)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Fiery Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#eliasFieryBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <rect x="70" y="24" width="220" height="22" rx="11" fill="#78350F" opacity="0.88" />
+    <text x="180" y="39" fill="#FEF08A" font-size="11" letter-spacing="2">Ο ΠΡΟΦΗΤΗC ΗΛΙΑC</text>
+    <text x="180" y="58" fill="#78350F" font-size="8.5" letter-spacing="1">Ο ΘΕCΒΙΤΗC • ΚΑΡΜΗΛΟC</text>
+  </g>
+
+  <!-- Mount Carmel Rocks / Desert Cave (Traditional Icon of Elias) -->
+  <path d="M15 380 L60 300 L120 340 L160 310 L220 350 L280 290 L345 350 L345 465 L15 465 Z" fill="url(#carmelRock)" stroke="#92400E" stroke-width="1" />
+  <!-- Cave Aperture behind Elias -->
+  <path d="M120 280 C120 200 240 200 240 280 L250 435 L110 435 Z" fill="#1C0F05" opacity="0.75" />
+
+  <!-- Raven bringing bread (upper right) -->
+  <g id="raven">
+    <!-- Bird body -->
+    <path d="M285 105 Q300 95 315 105 Q325 115 310 120 Q295 125 285 105 Z" fill="#18181B" />
+    <!-- Wing -->
+    <path d="M295 100 Q305 80 320 95 Z" fill="#27272A" />
+    <!-- Beak holding round loaf of bread -->
+    <polygon points="285,107 275,108 285,110" fill="#F59E0B" />
+    <circle cx="272" cy="110" r="4" fill="#FEF3C7" stroke="#B45309" stroke-width="0.8" />
+  </g>
+
+  <!-- RADIANT HALO -->
+  <circle cx="180" cy="145" r="62" fill="url(#eliasHalo)" stroke="#FFFBEB" stroke-width="2.2" />
+  <circle cx="180" cy="145" r="58" fill="none" stroke="#78350F" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Prophet Elias Robes -->
+  <!-- Sheepskin Milote Undergarment -->
+  <path d="M135 195 L135 435 L225 435 L225 195 Z" fill="#78350F" stroke="#FDE047" stroke-width="0.8" />
+  <path d="M140 205 Q145 220 140 235 M220 205 Q215 220 220 235" stroke="#D97706" stroke-width="1" />
+
+  <!-- Deep Olive Green / Ochre Himation (Cloak) -->
+  <path d="M110 215 C130 195 230 195 250 215 L275 435 L85 435 Z" fill="url(#prophetHimation)" stroke="#FDE047" stroke-width="1.2" />
+
+  <!-- Face & Ascetic Desert Features -->
+  <!-- Neck -->
+  <path d="M170 168 L170 195 L190 195 L190 168 Z" fill="#D97706" />
+  <!-- Face Oval -->
+  <ellipse cx="180" cy="144" rx="21" ry="26" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <ellipse cx="180" cy="146" rx="18" ry="22" fill="#E2A676" />
+
+  <!-- Wild Prophetic Hair and Beard -->
+  <path d="M156 140 C150 110 210 110 204 140 C208 120 152 120 156 140 Z" fill="#78716C" stroke="#44403C" stroke-width="0.8" />
+  <!-- Great Prophetic Grey/Brown Beard with Locks -->
+  <path d="M160 145 C155 210 170 235 180 240 C190 235 205 210 200 145 C190 165 170 165 160 145 Z" fill="#57534E" stroke="#292524" stroke-width="1" />
+  <path d="M173 175 L173 225 M180 178 L180 235 M187 175 L187 225" stroke="#A8A29E" stroke-width="1" />
+
+  <!-- Piercing Fiery Prophetic Eyes -->
+  <ellipse cx="173" cy="142" rx="3.5" ry="2.2" fill="#2E1C0C" />
+  <circle cx="174" cy="141" r="0.8" fill="#FFFFFF" />
+  <ellipse cx="187" cy="142" rx="3.5" ry="2.2" fill="#2E1C0C" />
+  <circle cx="188" cy="141" r="0.8" fill="#FFFFFF" />
+  <!-- Intense Eyebrows -->
+  <path d="M166 137 Q173 133 178 136" stroke="#292524" stroke-width="1.8" fill="none" />
+  <path d="M182 136 Q187 133 194 137" stroke="#292524" stroke-width="1.8" fill="none" />
+  <!-- Strong Aquiline Nose -->
+  <path d="M179 138 L180 152 L184 152" stroke="#9A3412" stroke-width="1.2" fill="none" />
+  <path d="M176 160 Q180 162 184 160" stroke="#78350F" stroke-width="1.2" fill="none" />
+
+  <!-- RIGHT HAND IN PROPHECY / ATTENTION GESTURE -->
+  <g id="prophetic-gesture">
+    <ellipse cx="130" cy="275" rx="7" ry="9" fill="#E2A676" />
+    <path d="M128 270 L128 250 M132 270 L133 248" stroke="#9A3412" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- LEFT HAND HOLDING THE PROPHETIC SCROLL -->
+  <g id="elias-scroll">
+    <!-- Unfurled Parchment Scroll -->
+    <path d="M205 260 L245 275 L235 370 L195 355 Z" fill="#FEF3C7" stroke="#78350F" stroke-width="1.5" />
+    <!-- Greek Prophetic Scroll Text: ΖΗ ΚΥΡΙΟC Ο ΘΕΟC -->
+    <text x="220" y="295" fill="#78350F" font-family="'Cinzel', serif" font-size="7.5" font-weight="bold" transform="rotate(15 220 295)">ΖΗ ΚΥΡΙΟC</text>
+    <text x="217" y="315" fill="#78350F" font-family="'Cinzel', serif" font-size="7.5" font-weight="bold" transform="rotate(15 217 315)">Ο ΘΕΟC ΤΩΝ</text>
+    <text x="214" y="335" fill="#78350F" font-family="'Cinzel', serif" font-size="7.5" font-weight="bold" transform="rotate(15 214 335)">ΔΥΝΑΜΕΩΝ</text>
+    <!-- Hand holding scroll -->
+    <ellipse cx="215" cy="355" rx="7" ry="8" fill="#E2A676" />
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="35" y="442" width="290" height="20" rx="10" fill="#78350F" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="456" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    ST. ELIAS (ELIJAH) THE GREAT PROPHET OF GOD
+  </text>
+</svg>

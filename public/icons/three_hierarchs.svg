@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="hierarchsGoldBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Halos -->
+    <radialGradient id="hierarchHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="45%" stop-color="#FDE047" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="hierarchsWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241407" />
+      <stop offset="100%" stop-color="#120803" />
+    </linearGradient>
+
+    <!-- Polystavrion Vestment 1 (Basil: Deep Burgundy) -->
+    <linearGradient id="basilRobe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B" />
+      <stop offset="50%" stop-color="#7F1D1D" />
+      <stop offset="100%" stop-color="#450A0A" />
+    </linearGradient>
+
+    <!-- Polystavrion Vestment 2 (Gregory: Golden Saffron) -->
+    <linearGradient id="gregoryRobe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+
+    <!-- Polystavrion Vestment 3 (Chrysostom: Deep Emerald) -->
+    <linearGradient id="chrysostomRobe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Gospel Jewel Red -->
+    <radialGradient id="gospelRubyH" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="60%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#881337" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#hierarchsWood)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Burnished Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#hierarchsGoldBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <rect x="80" y="24" width="200" height="22" rx="11" fill="#78350F" opacity="0.88" />
+    <text x="180" y="39" fill="#FEF08A" font-size="11" letter-spacing="2">ΟΙ ΤΡΕΙC ΙΕΡΑΡΧΑΙ</text>
+    <text x="180" y="58" fill="#78350F" font-size="8" letter-spacing="1">ΒΑCΙΛΕΙΟC • ΓΡΗΓΟΡΙΟC • ΙΩΑΝΝΗC</text>
+  </g>
+
+  <!-- ================= 1. SAINT BASIL THE GREAT (LEFT) ================= -->
+  <g id="saint-basil">
+    <!-- Halo -->
+    <circle cx="80" cy="155" r="44" fill="url(#hierarchHalo)" stroke="#FFFBEB" stroke-width="1.8" />
+    <circle cx="80" cy="155" r="41" fill="none" stroke="#78350F" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+
+    <!-- Robe: Burgundy Polystavrion -->
+    <path d="M40 200 L40 435 L120 435 L120 200 Z" fill="url(#basilRobe)" stroke="#FDE047" stroke-width="1" />
+    <!-- White Omophorion -->
+    <path d="M65 195 L65 435 L90 435 L90 195 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="0.8" />
+    <path d="M72 230 L82 230 M77 222 L77 238" stroke="#18181B" stroke-width="2.5" />
+    <path d="M72 310 L82 310 M77 302 L77 318" stroke="#18181B" stroke-width="2.5" />
+
+    <!-- Face: Long Black/Grey Beard, Wise Ascetic Features -->
+    <ellipse cx="80" cy="155" rx="16" ry="20" fill="#F4C59E" stroke="#A76137" stroke-width="0.8" />
+    <!-- Pointed Long Dark Beard -->
+    <path d="M68 150 C65 195 75 215 80 220 C85 215 95 195 92 150 Z" fill="#292524" stroke="#1C1917" stroke-width="0.5" />
+    <ellipse cx="75" cy="150" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <ellipse cx="85" cy="150" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <path d="M80 148 L80 158 L82 158" stroke="#9A3412" stroke-width="0.8" fill="none" />
+
+    <!-- Holding Gospel -->
+    <rect x="55" y="270" width="35" height="50" rx="2" fill="url(#gospelRubyH)" stroke="#FDE047" stroke-width="1.2" />
+    <path d="M72 282 L72 308 M64 292 L80 292" stroke="#FDE047" stroke-width="1.8" />
+    <ellipse cx="72" cy="322" rx="5" ry="6" fill="#E2A676" />
+
+    <!-- Name Label -->
+    <text x="80" y="448" fill="#FDE047" font-family="'Cinzel', serif" font-size="8" font-weight="bold" text-anchor="middle">ΒΑCΙΛΕΙΟC</text>
+  </g>
+
+  <!-- ================= 2. SAINT GREGORY THE THEOLOGIAN (CENTER) ================= -->
+  <g id="saint-gregory">
+    <!-- Halo (slightly elevated) -->
+    <circle cx="180" cy="145" r="46" fill="url(#hierarchHalo)" stroke="#FFFBEB" stroke-width="2" />
+    <circle cx="180" cy="145" r="43" fill="none" stroke="#78350F" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+
+    <!-- Robe: Golden Ochre Polystavrion -->
+    <path d="M135 195 L135 435 L225 435 L225 195 Z" fill="url(#gregoryRobe)" stroke="#FDE047" stroke-width="1" />
+    <!-- White Omophorion -->
+    <path d="M165 190 L165 435 L195 435 L195 190 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="0.8" />
+    <path d="M175 225 L185 225 M180 217 L180 233" stroke="#18181B" stroke-width="2.5" />
+    <path d="M175 305 L185 305 M180 297 L180 313" stroke="#18181B" stroke-width="2.5" />
+
+    <!-- Face: Rounded Broad White Beard, Bald Head of Theological Wisdom -->
+    <ellipse cx="180" cy="145" rx="17" ry="21" fill="#F4C59E" stroke="#A76137" stroke-width="0.8" />
+    <!-- Rounded White Beard -->
+    <path d="M166 142 C164 185 174 205 180 208 C186 205 196 185 194 142 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.5" />
+    <ellipse cx="174" cy="141" rx="2.4" ry="1.6" fill="#2E1C0C" />
+    <ellipse cx="186" cy="141" rx="2.4" ry="1.6" fill="#2E1C0C" />
+    <path d="M180 139 L180 150 L182 150" stroke="#9A3412" stroke-width="0.8" fill="none" />
+
+    <!-- Blessing and Holding Scroll of Theology -->
+    <!-- Blessing hand -->
+    <ellipse cx="160" cy="270" rx="6" ry="8" fill="#E2A676" />
+    <path d="M158 265 L158 255 M161 265 L161 253" stroke="#A76137" stroke-width="1.8" stroke-linecap="round" />
+    <!-- Scroll -->
+    <path d="M185 260 L210 270 L205 320 L180 310 Z" fill="#FFFBEB" stroke="#B45309" stroke-width="1" />
+    <line x1="188" y1="275" x2="204" y2="282" stroke="#78350F" stroke-width="1" stroke-dasharray="2 1" />
+    <line x1="186" y1="288" x2="202" y2="295" stroke="#78350F" stroke-width="1" stroke-dasharray="2 1" />
+
+    <!-- Name Label -->
+    <text x="180" y="448" fill="#FDE047" font-family="'Cinzel', serif" font-size="8" font-weight="bold" text-anchor="middle">ΓΡΗΓΟΡΙΟC</text>
+  </g>
+
+  <!-- ================= 3. SAINT JOHN CHRYSOSTOM (RIGHT) ================= -->
+  <g id="saint-chrysostom">
+    <!-- Halo -->
+    <circle cx="280" cy="155" r="44" fill="url(#hierarchHalo)" stroke="#FFFBEB" stroke-width="1.8" />
+    <circle cx="280" cy="155" r="41" fill="none" stroke="#78350F" stroke-width="0.8" stroke-dasharray="1.5 1.5" />
+
+    <!-- Robe: Deep Emerald Green Polystavrion -->
+    <path d="M240 200 L240 435 L320 435 L320 200 Z" fill="url(#chrysostomRobe)" stroke="#FDE047" stroke-width="1" />
+    <!-- White Omophorion -->
+    <path d="M270 195 L270 435 L295 435 L295 195 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="0.8" />
+    <path d="M278 230 L288 230 M283 222 L283 238" stroke="#18181B" stroke-width="2.5" />
+    <path d="M278 310 L288 310 M283 302 L283 318" stroke="#18181B" stroke-width="2.5" />
+
+    <!-- Face: Slender Ascetic, Short Brownish Beard, Golden Brow -->
+    <ellipse cx="280" cy="155" rx="15" ry="19" fill="#F4C59E" stroke="#A76137" stroke-width="0.8" />
+    <!-- Short Pointed Beard -->
+    <path d="M269 150 C267 185 276 198 280 202 C284 198 293 185 291 150 Z" fill="#574133" stroke="#2D1C0C" stroke-width="0.5" />
+    <ellipse cx="275" cy="150" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <ellipse cx="285" cy="150" rx="2.2" ry="1.5" fill="#2E1C0C" />
+    <path d="M280 148 L280 158 L282 158" stroke="#9A3412" stroke-width="0.8" fill="none" />
+
+    <!-- Holding Gospel -->
+    <rect x="270" y="270" width="35" height="50" rx="2" fill="url(#gospelRubyH)" stroke="#FDE047" stroke-width="1.2" />
+    <path d="M287 282 L287 308 M279 292 L295 292" stroke="#FDE047" stroke-width="1.8" />
+    <ellipse cx="287" cy="322" rx="5" ry="6" fill="#E2A676" />
+
+    <!-- Name Label -->
+    <text x="280" y="448" fill="#FDE047" font-family="'Cinzel', serif" font-size="8" font-weight="bold" text-anchor="middle">ΙΩΑΝΝΗC</text>
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="30" y="456" width="300" height="18" rx="9" fill="#451A03" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="468" fill="#FEF08A" font-family="'Cinzel', serif" font-size="8.5" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    THE THREE HOLY HIERARCHS • PATRONS OF EDUCATION
+  </text>
+</svg>

@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="nektariosGoldBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Episcopal Halo -->
+    <radialGradient id="nektariosHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="45%" stop-color="#FDE047" />
+      <stop offset="80%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="nektariosWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241407" />
+      <stop offset="100%" stop-color="#120803" />
+    </linearGradient>
+
+    <!-- Emerald Green Episcopal Phelonion -->
+    <linearGradient id="episcopalGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="40%" stop-color="#059669" />
+      <stop offset="80%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Jewel Red for Gospel -->
+    <radialGradient id="gospelRuby" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="60%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#881337" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark Aged Wood Base -->
+  <rect width="360" height="480" fill="url(#nektariosWood)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Burnished Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#nektariosGoldBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <rect x="70" y="24" width="220" height="22" rx="11" fill="#064E3B" opacity="0.88" />
+    <text x="180" y="39" fill="#FEF08A" font-size="11" letter-spacing="2">Ο ΑΓΙΟC ΝΕΚΤΑΡΙΟC</text>
+    <text x="180" y="58" fill="#78350F" font-size="9" letter-spacing="1">ΕΠΙCΚΟΠΟC ΠΕΝΤΑΠΟΛΕΩC • ΑΙΓΙΝΑ</text>
+  </g>
+
+  <!-- RADIANT HALO -->
+  <circle cx="180" cy="140" r="62" fill="url(#nektariosHalo)" stroke="#FFFBEB" stroke-width="2.2" />
+  <circle cx="180" cy="140" r="58" fill="none" stroke="#B45309" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Episcopal Body: Emerald Green Phelonion -->
+  <path d="M100 205 Q180 185 260 205 L290 435 L70 435 Z" fill="url(#episcopalGreen)" stroke="#FDE047" stroke-width="1.2" />
+
+  <!-- Byzantine Gold Floral Embroidery on Phelonion -->
+  <g stroke="#FDE047" stroke-width="1" fill="none" opacity="0.6">
+    <circle cx="120" cy="300" r="8" />
+    <circle cx="240" cy="300" r="8" />
+    <circle cx="110" cy="370" r="8" />
+    <circle cx="250" cy="370" r="8" />
+  </g>
+
+  <!-- White Sacred Omophorion (Episcopal Scarf draped over shoulders) -->
+  <path d="M140 195 L140 435 L175 435 L175 250 L185 250 L185 435 L220 435 L220 195 Q180 230 140 195 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="1.2" />
+  
+  <!-- Black and Gold Crosses on Omophorion (Traditional Orthodox Bishop) -->
+  <!-- Left Side Crosses -->
+  <g fill="#18181B" stroke="#D4AF37" stroke-width="0.8">
+    <!-- Upper cross -->
+    <path d="M152 230 L162 230 M157 220 L157 240" stroke="#18181B" stroke-width="3" stroke-linecap="square" />
+    <!-- Lower cross -->
+    <path d="M152 320 L162 320 M157 310 L157 330" stroke="#18181B" stroke-width="3" stroke-linecap="square" />
+    <!-- Bottom cross -->
+    <path d="M152 390 L162 390 M157 380 L157 400" stroke="#18181B" stroke-width="3" stroke-linecap="square" />
+  </g>
+  <!-- Right Side Crosses -->
+  <g fill="#18181B" stroke="#D4AF37" stroke-width="0.8">
+    <path d="M198 290 L208 290 M203 280 L203 300" stroke="#18181B" stroke-width="3" stroke-linecap="square" />
+    <path d="M198 370 L208 370 M203 360 L203 380" stroke="#18181B" stroke-width="3" stroke-linecap="square" />
+  </g>
+
+  <!-- Golden Fringes on Omophorion Bottom -->
+  <line x1="140" y1="435" x2="175" y2="435" stroke="#FDE047" stroke-width="3" stroke-dasharray="1 1" />
+  <line x1="185" y1="435" x2="220" y2="435" stroke="#FDE047" stroke-width="3" stroke-dasharray="1 1" />
+
+  <!-- Saint Nektarios Face & Compassionate Features -->
+  <!-- Neck -->
+  <path d="M170 165 L170 190 L190 190 L190 165 Z" fill="#E2A676" />
+  <!-- Head Oval -->
+  <ellipse cx="180" cy="140" rx="22" ry="26" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <!-- Elderly Shading -->
+  <ellipse cx="180" cy="142" rx="19" ry="22" fill="#FADBC2" />
+
+  <!-- Gentle White Hair & Flowing Silver Beard -->
+  <path d="M158 135 C155 115 205 115 202 135 C202 120 158 120 158 135 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8" />
+  <!-- Full Kind Silver Beard -->
+  <path d="M162 145 C160 195 170 215 180 218 C190 215 200 195 198 145 C190 160 170 160 162 145 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+  <!-- Beard Strands -->
+  <path d="M175 168 L175 205 M180 170 L180 212 M185 168 L185 205" stroke="#E2E8F0" stroke-width="0.8" />
+
+  <!-- Gentle Merciful Eyes with Crow's Feet (Kind Old Bishop) -->
+  <ellipse cx="173" cy="138" rx="3.2" ry="2" fill="#2E1C0C" />
+  <circle cx="174" cy="137.5" r="0.7" fill="#FFFFFF" />
+  <ellipse cx="187" cy="138" rx="3.2" ry="2" fill="#2E1C0C" />
+  <circle cx="188" cy="137.5" r="0.7" fill="#FFFFFF" />
+  <!-- Soft Eyebrows -->
+  <path d="M168 134 Q173 131 178 133" stroke="#94A3B8" stroke-width="1.5" fill="none" />
+  <path d="M182 133 Q187 131 192 134" stroke="#94A3B8" stroke-width="1.5" fill="none" />
+  <!-- Slender Nose & Peaceful Mouth -->
+  <path d="M179 135 L180 148 L183 148" stroke="#9A3412" stroke-width="0.9" fill="none" />
+  <path d="M176 156 Q180 157 184 156" stroke="#991B1B" stroke-width="1.2" fill="none" />
+
+  <!-- Bishop's Pectoral Cross (Enkolpion) -->
+  <circle cx="180" cy="225" r="7" fill="url(#nektariosHalo)" stroke="#B45309" stroke-width="0.8" />
+  <circle cx="180" cy="225" r="2.5" fill="url(#gospelRuby)" />
+
+  <!-- RIGHT HAND BLESSING (IC XC Gesture) -->
+  <g id="blessing-hand">
+    <ellipse cx="132" cy="265" rx="8" ry="10" fill="#E2A676" />
+    <!-- Raised index and middle fingers (IC), crossed thumb and ring finger (XC) -->
+    <path d="M128 260 L128 245 M132 260 L132 242 M136 262 L137 252" stroke="#A76137" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- LEFT HAND HOLDING JEWELED GOSPEL BOOK -->
+  <g id="holy-gospel">
+    <!-- Gospel Book Cover (Deep Crimson Red & Gold) -->
+    <rect x="205" y="270" width="55" height="75" rx="4" fill="url(#gospelRuby)" stroke="#FDE047" stroke-width="2" />
+    <!-- Gold Corner Bosses -->
+    <circle cx="212" cy="277" r="3" fill="#FDE047" />
+    <circle cx="253" cy="277" r="3" fill="#FDE047" />
+    <circle cx="212" cy="338" r="3" fill="#FDE047" />
+    <circle cx="253" cy="338" r="3" fill="#FDE047" />
+    <!-- Center Byzantine Cross on Gospel -->
+    <path d="M232 288 L232 322 M220 300 L245 300" stroke="#FDE047" stroke-width="3" stroke-linecap="square" />
+    <circle cx="232" cy="300" r="3.5" fill="#10B981" />
+    <!-- Hand holding the Gospel from underneath -->
+    <path d="M210 340 Q232 355 255 340" fill="#E2A676" stroke="#A76137" stroke-width="1" />
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="35" y="442" width="290" height="20" rx="10" fill="#064E3B" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="456" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    ST. NEKTARIOS OF AEGINA • THE WONDERWORKER
+  </text>
+</svg>

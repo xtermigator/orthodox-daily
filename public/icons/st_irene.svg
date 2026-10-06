@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="100%" height="100%">
+  <defs>
+    <!-- 24K Byzantine Gold Leaf Gradient -->
+    <radialGradient id="ireneGoldBg" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="90%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Halo -->
+    <radialGradient id="ireneHalo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="45%" stop-color="#FDE047" />
+      <stop offset="85%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </radialGradient>
+
+    <!-- Wood Base -->
+    <linearGradient id="ireneWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#261208" />
+      <stop offset="100%" stop-color="#120602" />
+    </linearGradient>
+
+    <!-- Royal Amethyst Purple Maphorion -->
+    <linearGradient id="irenePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="40%" stop-color="#7E22CE" />
+      <stop offset="80%" stop-color="#581C87" />
+      <stop offset="100%" stop-color="#3B0764" />
+    </linearGradient>
+
+    <!-- Emerald Chiton -->
+    <linearGradient id="ireneEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="40%" stop-color="#059669" />
+      <stop offset="80%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Wood Base -->
+  <rect width="360" height="480" fill="url(#ireneWood)" rx="16" />
+
+  <!-- Outer Carved Bevel & Kovcheg Red Inset Border -->
+  <rect x="6" y="6" width="348" height="468" fill="none" stroke="#D4AF37" stroke-width="3" rx="12" />
+  <rect x="12" y="12" width="336" height="456" fill="none" stroke="#B91C1C" stroke-width="1.8" rx="8" />
+
+  <!-- Gold Leaf Background -->
+  <rect x="15" y="15" width="330" height="450" fill="url(#ireneGoldBg)" rx="6" />
+
+  <!-- Corner Crosses -->
+  <g fill="#92400E" opacity="0.6">
+    <text x="24" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+    <text x="324" y="34" font-family="serif" font-size="16" font-weight="bold">☦</text>
+  </g>
+
+  <!-- Greek Byzantine Inscriptions -->
+  <g font-family="'Cinzel', Georgia, serif" font-weight="bold" text-anchor="middle">
+    <rect x="70" y="24" width="220" height="22" rx="11" fill="#4C1D95" opacity="0.88" />
+    <text x="180" y="39" fill="#FEF08A" font-size="11" letter-spacing="2">Η ΑΓΙΑ ΕΙΡΗΝΗ</text>
+    <text x="180" y="58" fill="#78350F" font-size="8.5" letter-spacing="1">Η ΜΕΓΑΛΟΜΑΡΤΥC • ΕΙΡΗΝΗ ΧΡΙCΤΟΥ</text>
+  </g>
+
+  <!-- Dove of Heavenly Peace (Upper Left) -->
+  <g id="peace-dove">
+    <path d="M60 115 Q75 105 85 112 Q90 120 80 125 Q70 128 60 115 Z" fill="#FFFDF8" stroke="#D4AF37" stroke-width="0.8" />
+    <path d="M70 110 Q80 90 95 105 Z" fill="#F8FAFC" />
+    <circle cx="83" cy="113" r="1" fill="#78350F" />
+    <path d="M85 114 L95 112" stroke="#15803D" stroke-width="1.5" />
+  </g>
+
+  <!-- RADIANT HALO -->
+  <circle cx="180" cy="142" r="58" fill="url(#ireneHalo)" stroke="#FFFBEB" stroke-width="2.2" />
+  <circle cx="180" cy="142" r="54" fill="none" stroke="#B45309" stroke-width="1.2" stroke-dasharray="2 2" />
+
+  <!-- Robes: Royal Purple Maphorion with Emerald Chiton -->
+  <path d="M140 190 L140 435 L220 435 L220 190 Z" fill="url(#ireneEmerald)" />
+
+  <!-- Royal Purple Maphorion Veil -->
+  <path d="M180 94 C145 94 125 125 115 170 C105 215 95 290 85 435 L275 435 C265 290 255 215 245 170 C235 125 215 94 180 94 Z" fill="url(#irenePurple)" stroke="#FDE047" stroke-width="1.5" />
+
+  <!-- Gold Star on Head -->
+  <g fill="#FDE047">
+    <path d="M180 110 L182 115 L187 117 L182 119 L180 124 L178 119 L173 117 L178 115 Z" />
+  </g>
+
+  <!-- Face -->
+  <path d="M172 165 L172 188 L188 188 L188 165 Z" fill="#E2A676" />
+  <ellipse cx="180" cy="144" rx="20" ry="24" fill="#F4C59E" stroke="#A76137" stroke-width="1" />
+  <ellipse cx="180" cy="146" rx="17" ry="20" fill="#FADBC2" />
+
+  <!-- Serene Peaceful Eyes -->
+  <ellipse cx="173" cy="142" rx="3.2" ry="2.2" fill="#2E1C0C" />
+  <circle cx="174" cy="141.5" r="0.8" fill="#FFFFFF" />
+  <ellipse cx="187" cy="142" rx="3.2" ry="2.2" fill="#2E1C0C" />
+  <circle cx="188" cy="141.5" r="0.8" fill="#FFFFFF" />
+  <!-- Eyebrows -->
+  <path d="M168 138 Q173 135 178 138" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <path d="M182 138 Q187 135 192 138" stroke="#78350F" stroke-width="1.2" fill="none" />
+  <!-- Nose & Sweet Gentle Smile -->
+  <path d="M179 139 L180 151 L183 151" stroke="#9A3412" stroke-width="1" fill="none" />
+  <path d="M176 157 Q180 159 184 157" stroke="#A855F7" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+  <!-- RIGHT HAND HOLDING GOLDEN MARTYR'S CROSS -->
+  <g id="irene-cross">
+    <ellipse cx="140" cy="275" rx="7" ry="9" fill="#E2A676" />
+    <path d="M140 230 L140 335 M128 250 L152 250" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+    <circle cx="140" cy="250" r="3" fill="#A855F7" />
+  </g>
+
+  <!-- LEFT HAND HOLDING OLIVE BRANCH OF PEACE -->
+  <g id="olive-branch">
+    <!-- Branch stem -->
+    <path d="M225 295 Q235 270 240 235" stroke="#15803D" stroke-width="2.2" fill="none" />
+    <!-- Olive leaves -->
+    <ellipse cx="230" cy="275" rx="6" ry="3" fill="#22C55E" transform="rotate(-30 230 275)" />
+    <ellipse cx="240" cy="260" rx="6" ry="3" fill="#22C55E" transform="rotate(30 240 260)" />
+    <ellipse cx="235" cy="245" rx="6" ry="3" fill="#22C55E" transform="rotate(-20 235 245)" />
+    <ellipse cx="242" cy="235" rx="6" ry="3" fill="#16A34A" />
+    <!-- Hand holding branch -->
+    <ellipse cx="225" cy="295" rx="7" ry="8" fill="#E2A676" />
+  </g>
+
+  <!-- Bottom Plaque -->
+  <rect x="35" y="442" width="290" height="20" rx="10" fill="#4C1D95" opacity="0.95" stroke="#D4AF37" stroke-width="1" />
+  <text x="180" y="456" fill="#FEF08A" font-family="'Cinzel', serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    ST. IRENE THE GREAT MARTYR • BRINGER OF PEACE
+  </text>
+</svg>
